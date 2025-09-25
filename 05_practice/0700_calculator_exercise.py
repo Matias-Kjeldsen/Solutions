@@ -48,13 +48,13 @@ def hent_tal():
 
 
 def main():
-    print("Velkommen til den simple lommeregner!")
-    print("Du kan vælge en matematisk operation fra menuen,")
+    print("Velkommen til lommeregneren!")
+    print("vælge en matematisk operation,")
     print("og derefter indtaste to tal for at få resultatet.")
 
     while True:
         vis_menu()
-        valg = input("Indtast dit valg (1-5): ")
+        valg = input("Vælge operation(1-5): ")
 
         if valg == "1":
             tal1, tal2 = hent_tal()
